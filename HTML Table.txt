@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example</title>
+
+<!-- CSS -->
+<style>
+.myTableBg { 
+  width: 100%;
+  text-align: left;
+  background: white url(/pix/samples/celebrate.gif) repeat;
+  border-collapse: collapse;
+  }
+.myTableBg td, .myTableBg th { 
+  border:2px solid black;
+  padding:5px;
+  }
+</style>
+
+</head>
+<body>
+
+<!-- HTML -->
+<table class="myTableBg">
+	<tr>
+		<th>Header</th>
+		<th>Header</th>
+	</tr>
+	<tr>
+		<td>Table cell</td>
+		<td>Table cell</td>
+	</tr>
+	<tr>
+		<td>Table cell</td>
+		<td>Table cell</td>
+	</tr>
+	<tr>
+		<td>Table cell</td>
+		<td>Table cell</td>
+	</tr>
+</table>
+
+</body>
+</html>
