@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
-   <head> </head>
+<head>
+</head>
    <body>
      <script>
-       document.write("Hello World!");
+       document.write("Hello World!");//this is a javascript output for Hello World
      </script>
    </body>
 </html> 
