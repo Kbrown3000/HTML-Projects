@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html> 
+<html>
+<head>
+  <title>Brown Bears</title><!--only text can go here no other tags will work-->
+</head>
 <body>
+  <nav><!--the nav tag is used to open and close links that can refer other areas of file-->
+    <a href="./index.html">Brown Bear</a><!--this opens up the index.html file the ./ insrtucts page to load-->
+    <a href="./aboutme.html">About Me</a>
+  </nav>
   <h1>The Brown Bear</h1>
-  <div id="introduction"><!--used the div tag to create id introduction-->
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li><!-when introduced is clicked it will jump to the introduction ID in code-->
+      <li><a href="#habitat">Habitat</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+  </nav>
+  <div id="introduction">
     <h2>About Brown Bears</h2>
-    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a><1--When the "Learn More" is selected it goes to the wiki link inside the a tags--> 
     <h3>Species</h3>
     <ul>
-      <li>Arctos</li><!--each li tag within the ul tag will create a dot-->
+      <li>Arctos</li>
       <li>Collarus</li>
       <li>Horribilis</li>
       <li>Nelsoni (extinct)</li>
@@ -19,7 +35,7 @@
     <h2>Habitat</h2>
     <h3>Countries with Large Brown Bear Populations</h3>
     <ol>
-      <li>Russia</li><!--each li tag is numbered within a ol tag-->
+      <li>Russia</li>
       <li>United States</li>
       <li>Canada</li>
     </ol>
@@ -28,7 +44,11 @@
   </div>
   <div id="media">
     <h2>Media</h2>
-    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt = "A Brown Bear"/>
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" />
+    <video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" 
+           height="240" width="320" controls>Video not supported</video><!--hieght sets hight of file and width sets width and controls puts video control in video on page-->
   </div>
 </body>
+
 </html>
+
