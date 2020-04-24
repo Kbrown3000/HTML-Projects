@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+      <h1>Complete the Form -<br> Complete the Story!</h1>
+      <hr>
+        <!--Add your form below:-->
+        <form action = "story.html" method="GET"><!--STEP 1 and 2-->
+        <input type ="submit" value= "Form My Story"><!--step 3-->
+      </form> 
+      
+      <label for ="animal-1">Animal:</label>
+      <br><!--step 4-->
+      <input type="text" name="animal-1" id="animal-1" required><!--step 5-->
+      <br><!--step 6-->
+      <label for ="animal-2">Another Animal:</label><br>
+      <input type="text" name="animal-2" id="animal-2" required><!--step 7-->
+      <br>
+      <label for ="animal-3">One More Animal:</label><br>
+      <input type="text" name="animal-3" id="animal-3" required><!--step 8-->
+      <br>
+      <label for ="adj-1">(Past Tense):</label><br>
+      <input type="text" name="adj-1" id="adj-1" required>
+      <br>
+      <label for ="verb-1">(Ends in-ing):</label><br> 
+      <input type="text" name="verb-1" id="verb-1" required>
+      <br>
+      
+   <label for ="verb-1">Number:</label><br> 
+      <input type="number" name="num-1" id="num-1" required>
+       <br>
+   <span>Yes or No:</span>
+      <br>
+      <input type="radio" name="answer" value="yes" id="yes" required>
+           <label for ="yes">yes</label><br> 
+      
+           <input type="radio" name="answer" value="no" id="no" required>
+      <label for ="no">no</label><br> 
+      <label for ="speed">Relative speed (ends in -er):</label><br> 
+      
+    </section>
+  </body>
+</html>
