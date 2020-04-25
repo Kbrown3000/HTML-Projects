@@ -46,8 +46,30 @@
       
            <input type="radio" name="answer" value="no" id="no" required>
       <label for ="no">no</label><br> 
-      <label for ="speed">Relative speed (ends in -er):</label><br> 
+      <label for ="speed">Relative speed (ends in -er):</label><br>
+      <select id="speed" name="speed" required>
+        <option value="faster">Faster</option>
+         <option value="faster">Slower</option>
+           <option value="faster">Faster1</option>
+            </select>
+      <br>
       
-    </section>
+       <label for ="Qoute">Motivational Qoute:</label>
+      <br>
+       <input type="text" name="qoute" id="qoute" required>
+      
+     <input list="Qoute-Choices"> 
+      <datalist id="Qoute-Choices">
+        <option value="winner gets ice cream!"></option>
+        <option value="winner 2 gets a car!"></option>
+         <option value="2n winner up gets bubble gum!"></option>
+        <br>
+        </datalist>
+        <label for ="Message">Meaningful Message:</label>
+        <br>
+      <textarea id="message" name="message" rows="8" cols="8" required>...</textarea>
+            
+     </section> 
+   
   </body>
 </html>
